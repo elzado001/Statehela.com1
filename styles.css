@@ -246,8 +246,10 @@ h2::after{
     height: 100px;
     object-fit: cover;
 }
-.popular-posts{
+
+.popular-posts .popular-post{
     margin: 0 8px;
+    align-items: center;
 
 }
     
@@ -563,8 +565,9 @@ a.button{
     .popular-posts-container .popular-posts{
         flex-direction: column;
     }
-    .popular-posts .popular-posts{
-        margin: 16px 0;
+    .popular-posts .popular-post{
+        margin: 10px 0;
+        align-items: center;
     }
     
     /* faq section */
