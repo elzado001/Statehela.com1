@@ -217,20 +217,12 @@ body {
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
 
-  
-  .navbar .container{
-    margin-bottom: 50px;
-  }
-  
-.navbar .logo {
-  font-size: 20px;
-}
-
-.nav-links a {
-  
-  margin: 0 10px;
-  font-size: 14px;
-}
+.nav-links {
+      float: none;
+      text-align: center;
+      margin-top: 10px;
+       font-size: 17px;
+    }
 
   
   .registration-section {
