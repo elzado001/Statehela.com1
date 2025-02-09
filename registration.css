@@ -1,0 +1,255 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navigation Bar */
+.navbar {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links {
+  float: right;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 20px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+
+/* Registration Section */
+.registration-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  gap: 20px; /* Adds space between left and right blocks */
+}
+
+.left-block {
+  flex: 2;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.right-block {
+  flex: 1;
+  background: #e3f2fd;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.fee-explanation h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.fee-explanation p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.fee-explanation ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.fee-image {
+  margin-top: 20px;
+}
+
+.fee-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.activation-fees h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.activation-fees ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.activation-fees li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Registration Process Section */
+.registration-process-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.process-explanation {
+  flex: 2;
+  margin-right: 20px;
+}
+
+.process-explanation h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.process-explanation ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+
+.process-explanation li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.process-image {
+  flex: 1;
+}
+
+.process-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}  
+
+/* Footer */
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  margin: 0 10px;
+}  
+
+
+
+
+/* hanging buttons */
+.floating-buttons {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ 
+}
+
+.floating-buttons .whatsapp-button,
+.floating-buttons .register-button {
+  margin-bottom: 10px; /* Add space between the buttons */
+}
+.whatsapp-btn{
+  height: 70px;
+  width: 70px;
+  
+}
+.register-btn {
+  background-color: rgba(255, 0, 0, 0.74);
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px 16px;
+  border-radius: 20px;
+  transition: transform 0.3s ease; 
+}
+
+.register-btn:hover {
+  background-color: greenyellow;
+  transform: translateY(-50%) scale(1.1);
+}
+
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .registration-section {
+    flex-direction: column;
+  }
+
+  .left-block, .right-block {
+    flex: 1;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .fee-explanation h1, .activation-fees h2, .process-explanation h2 {
+    font-size: 24px;
+  }
+
+  .process-explanation {
+    margin-right: 0;
+  }
+
+    
+    /* hanging buttons */
+    .floating-buttons {
+      right: 10px; /* Adjust position for smaller screens */
+      bottom: -20px;
+
+  }
+
+  .register-btn {
+      font-size: 18px; /* Reduce font size for better fit */
+      padding: 4px 12px; /* Adjust padding */
+      border-radius: 15px;
+      bottom: -20px;
+  }
+  .whatsapp-btn{
+      height: 40px;
+      width: 40px;
+  } 
+}
