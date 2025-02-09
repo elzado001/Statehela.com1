@@ -82,6 +82,12 @@ h3 {
   
 }
 
+
+.read-more-container .read-more{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;}
+
 /* Image Styling */
 .post img {
     width: 70%;
