@@ -216,15 +216,30 @@ body {
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+
+  
+  .navbar .container{
+    margin-bottom: 50px;
+  }
+  
+.navbar .logo {
+  font-size: 20px;
+}
+
+.nav-links a {
+  
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+  
   .registration-section {
     flex-direction: column;
+    width: 100%;
   }
 
-  .left-block, .right-block {
-    flex: 1;
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
+  
+  
 
   .fee-explanation h1, .activation-fees h2, .process-explanation h2 {
     font-size: 24px;
