@@ -230,8 +230,17 @@ body {
     font-size: 24px;
   }
 
+   .registration-process-section {
+    flex-direction: column;
+  }
+
   .process-explanation {
     margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .process-image {
+    margin-top: 20px;
   }
 
     
