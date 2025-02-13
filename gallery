@@ -43,15 +43,15 @@
             <div class="caption">Members</div>
         </div>
         <div class="gallery-item">
-            <img src="gallery/uganda.jpg" alt="StateHela Uganda">
+            <img src="gallery1/uganda.jpg" alt="StateHela Uganda">
             <div class="caption">StateHela Uganda</div>
         </div>
         <div class="gallery-item">
-            <img src="gallery/tanzania.jpg" alt="StateHela Tanzania">
+            <img src="gallery1/tanzania.jpg" alt="StateHela Tanzania">
             <div class="caption">StateHela Tanzania</div>
         </div>
         <div class="gallery-item">
-            <img src="gallery/kenya.jpg" alt="StateHela Kenya">
+            <img src="gallery1/kenya.jpg" alt="StateHela Kenya">
             <div class="caption">StateHela Kenya</div>
         </div>
         <div class="gallery-item">
@@ -64,7 +64,7 @@
         </div>
        
         <div class="gallery-item">
-            <img src="gallery/services.jpg" alt="fast and reliable services">
+            <img src="gallery1/services.jpg" alt="fast and reliable services">
             <div class="caption">Fast and Reliable Services</div>
         </div>
         <div class="gallery-item">
@@ -72,7 +72,7 @@
             <div class="caption">Secure Payment Methods</div>
         </div>
         <div class="gallery-item">
-            <img src="gallery/uganda2.jpg" alt="StateHela Uganda">
+            <img src="gallery1/uganda2.jpg" alt="StateHela Uganda">
             <div class="caption">Uganda</div>
         </div>
         <div class="gallery-item">
@@ -80,7 +80,7 @@
             <div class="caption">Members</div>
         </div>
         <div class="gallery-item">
-            <img src="gallery/intention.jpg" alt="Fast and Reliable Services">
+            <img src="gallery1/intention.jpg" alt="Fast and Reliable Services">
             <div class="caption">Fast and Reliable Services</div>
         </div>
         <div class="gallery-item">
@@ -88,7 +88,7 @@
             <div class="caption">User-Friendly Platform</div>
         </div>
         <div class="gallery-item">
-            <img src="gallery/open.jpg" alt="Join Us Today">
+            <img src="gallery1/open.jpg" alt="Join Us Today">
             <div class="caption">Join Us Today</div>
         </div>
     </div>
