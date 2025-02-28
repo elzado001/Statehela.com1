@@ -233,6 +233,23 @@ footer .footer-right {
         justify-content: space-around;
         text-align: left;
     }
+      /* hanging buttons */
+    .floating-buttons {
+        right: 10px; /* Adjust position for smaller screens */
+        bottom: -20px;
+
+    }
+
+    .register-btn {
+        font-size: 18px; /* Reduce font size for better fit */
+        padding: 4px 12px; /* Adjust padding */
+        border-radius: 15px;
+        bottom: -20px;
+    }
+    .whatsapp-btn{
+        height: 40px;
+        width: 40px;
+    } 
 }
 
 @media (min-width: 900px) {
