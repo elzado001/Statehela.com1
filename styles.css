@@ -123,7 +123,7 @@ body{
   /* Pop-up Box */
   .popup-box {
     background-color: #fff;
-    background-image: url(image/hero2.jpg);
+    background-image: url(image/hero6.jpg);
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -654,11 +654,11 @@ footer .footer-right{
     .popup-container {
         
         top: 75px;
-        left: 160px;
+        left: 120px;
         
     }
     .popup-box {
-      width: 113%;
+      width: 130%;
       
       padding: 12px;
       gap: 12px;
