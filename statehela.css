@@ -408,12 +408,12 @@ footer .footer-right {
    
     .popup-container {
         
-        top: 95px;
+        top: 115px;
         left: 100px;
         
     }
     .popup-box {
-      width: 130%;
+      width: 150%;
       
       padding: 12px;
       gap: 12px;
