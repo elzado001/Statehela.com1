@@ -345,6 +345,42 @@ h2::after{
     font-weight: bold;
     font-size: 16px;
 }    
+
+
+/* Tags Section */
+.tags-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9; /* Light background for contrast */
+  }
+  
+  .tags-section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Space between tags */
+  }
+  
+  .tag {
+    background-color: #34db50;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px; /* Pill-shaped tags */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .tag:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+    transform: translateY(-3px); /* Slight lift on hover */
+  }
+
 /* footer */
 footer{
     background-color: black;
