@@ -37,7 +37,7 @@ nav ul li a:hover {
 
 /* Pop-up Container */
 .popup-container {
-    position: fixed;
+    
     top: 75px;
     left: 50%;
     transform: translateX(-50%);
