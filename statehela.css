@@ -35,6 +35,116 @@ nav ul li a:hover {
     color: #f39c12;
 }
 
+/* Pop-up Container */
+.popup-container {
+    position: fixed;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+  }
+  
+  /* Pop-up Box */
+  .popup-box {
+    background-color: #fff;
+    background-image: url(image/hero2.jpg);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    
+    width: 600px;
+    display: flex;
+    gap: 10px;
+    animation: float 3s ease-in-out infinite;
+  }
+  .popup-box p{
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    margin: auto;
+  }
+  
+  /* Pie Chart Container */
+  .pie-chart {
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 50%;
+    position: relative;
+    margin: auto 15px;
+    
+    overflow: hidden;
+    animation: rotatePie 0.7s linear infinite;
+  }
+  
+  /* Pie Chart Segments */
+  .segment {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(50% 50%, 100% 50%, 100% 0);
+    transform-origin: 50% 50%;
+  }
+  
+  .segment-1 {
+    background-color: red;
+    transform: rotate(0deg);
+  }
+  
+  .segment-2 {
+    background-color: goldenrod;
+    transform: rotate(90deg);
+  }
+  
+  .segment-3 {
+    background-color: gold;
+    transform: rotate(180deg);
+  }
+  
+  .segment-4 {
+    background-color: violet;
+    transform: rotate(270deg);
+  }
+  
+  /* Register Button */
+  .register-button1 {
+    display: inline-block;
+    background-color: gold;
+    color: #fff;
+    padding: 10px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    margin: auto;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background-color: greenyellow;
+  }
+  
+  /* Floating Animation */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  /* Pie Chart Rotation Animation */
+  @keyframes rotatePie {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
 /* Hero Section */
 .hero {
     height: 60vh;
@@ -296,6 +406,34 @@ footer .footer-right {
         margin: 8px 14px;
     }
    
+    .popup-container {
+        
+        top: 75px;
+        left: 160px;
+        
+    }
+    .popup-box {
+      width: 113%;
+      
+      padding: 12px;
+      gap: 12px;
+      
+    }
+  
+    
+  
+    .popup-box p {
+      display: none;
+    }
+    .pie-chart {
+        width: 40px;
+        height: 40px;
+        margin: auto 10px;
+    }
+    .register-button1 {
+      padding: 8px 14px;
+      font-size: 14px;
+    }
     .hero h1 {
         font-size: 2.5rem;
     }
