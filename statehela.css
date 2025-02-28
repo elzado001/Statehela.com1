@@ -173,6 +173,41 @@ footer .social-icons a {
 footer .footer-right {
     margin-top: 20px;
 }
+
+/* hanging buttons */
+.floating-buttons {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+
+.floating-buttons .whatsapp-button,
+.floating-buttons .register-button {
+    margin-bottom: 10px; /* Add space between the buttons */
+}
+.whatsapp-btn{
+    height: 70px;
+    width: 70px;
+    
+}
+.register-btn {
+    background-color: rgba(255, 0, 0, 0.74);
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px 16px;
+    border-radius: 20px;
+    transition: transform 0.3s ease; 
+}
+
+.register-btn:hover {
+    background-color: greenyellow;
+    transform: translateY(-50%) scale(1.1);
+}
 /* Media Queries for Mobile Responsiveness */
 @media (min-width: 600px) {
     nav ul li {
