@@ -47,7 +47,7 @@ nav ul li a:hover {
   /* Pop-up Box */
   .popup-box {
     background-color: #fff;
-    background-image: url(image/hero2.jpg);
+    background-image: url(image/hero8.jpg);
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -409,11 +409,11 @@ footer .footer-right {
     .popup-container {
         
         top: 115px;
-        left: 100px;
+        left: 120px;
         
     }
     .popup-box {
-      width: 150%;
+      width: 1450%;
       
       padding: 12px;
       gap: 12px;
