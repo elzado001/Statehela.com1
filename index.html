@@ -6,15 +6,850 @@
     <meta name="keywords"  content="StateHela, statehela agency, How statehela works,  How to join StateHela , Statehela login, Statehela Sign up, Statehela app, Statehela agencies, statehela, earn money online, Register, Is statehela Legit?,Agency, Statehela agency ">
     <meta name="description" content="StateHela makes it easy to earn money online. Join our platform, complete simple tasks, and get paid. Start your earning journey today – it’s fast, easy, and secure! Register Now! Start Earning in Minutes! Statehela.">
    
-   
      <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="StateHela Agencies - Earn Money Online">
     <meta property="og:description" content="Join StateHela Agencies and discover multiple ways to earn money online. Start your journey to financial freedom today!">
     <meta property="og:image" content="https://statehela-agencies.com/image/logo1.jpg"> 
     <meta property="og:url" content="https://statehela-agencies.com">
     <meta property="og:type" content="website">
+   
+    <title>StateHela Agencies | Register Now!- Start Earning in Minutes!</title>
 
- 
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="image/png" href="image/logo1.jpg">
+    <link rel="canonical" href="https://www.statehela-agencies.com/">
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Roboto",sans-serif;
+}
+body{
+    background-color: white;
+    user-select: none; /* Prevent text selection */
+    cursor:default; /* Change cursor to "not allowed" */
+
+}
+.wrapper{
+    width:1152px;
+    margin: 0 auto;
+    padding: 0 120px;
+}
+.wrapper p{
+    line-height: 2;
+    margin-bottom: 20px;
+
+}
+/* top nav */
+.top-nav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    padding: 4px 0;
+    z-index: 200 ;
+}
+.top-nav .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+}
+.top-nav .mobile-menu-icon{
+    cursor: pointer;
+    display: block;
+
+}
+
+
+/* navigtion  */
+
+.top-nav .mobile-menu-container{
+    display: flex;
+    position: fixed;
+    background-color: lightskyblue;
+    height: 100vh;
+    width: 25%;
+    z-index: 200;
+    border-radius: 15px;
+    border: 2px solid #000;
+    right: 0;
+    top: -10%;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 500ms cubic-bezier(0.03, 0.95, 0.11, 1.09);
+
+}
+
+.top-nav .mobile-menu-container.active{
+    top: 0;
+    opacity: 1;
+    pointer-events: auto;
+}
+     
+
+.top-nav .mobile-menu-container ul{
+    list-style: none;
+    text-align: center;
+}
+.top-nav .mobile-menu-container ul li{
+    margin: 16px 0;
+}
+.top-nav .mobile-menu-container ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.top-nav .mobile-menu-container.active + .menu-close-icon{
+    
+    display: flex;
+    z-index: 300;
+    cursor: pointer;
+    padding: 16px;
+    background-color: #000;
+    border-radius: 4px;
+}
+
+
+
+/* hidden items */
+.mobile-menu-container, .menu-close-icon, .desktop{
+    display: none;
+}
+
+.top-nav nav ul{
+    display: flex;
+    list-style: none;
+}
+.top-nav nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+/* Pop-up Container */
+.popup-container {
+    position: fixed;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+  }
+  
+  /* Pop-up Box */
+  .popup-box {
+    background-color: #fff;
+    background-image: url(image/hero8.jpg);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    
+    width: 600px;
+    display: flex;
+    gap: 10px;
+    animation: float 3s ease-in-out infinite;
+  }
+  .popup-box p{
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    margin: auto;
+  }
+  
+  /* Pie Chart Container */
+  .pie-chart {
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 50%;
+    position: relative;
+    margin: auto 15px;
+    
+    overflow: hidden;
+    animation: rotatePie 0.7s linear infinite;
+  }
+  
+  /* Pie Chart Segments */
+  .segment {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(50% 50%, 100% 50%, 100% 0);
+    transform-origin: 50% 50%;
+  }
+  
+  .segment-1 {
+    background-color: red;
+    transform: rotate(0deg);
+  }
+  
+  .segment-2 {
+    background-color: goldenrod;
+    transform: rotate(90deg);
+  }
+  
+  .segment-3 {
+    background-color: gold;
+    transform: rotate(180deg);
+  }
+  
+  .segment-4 {
+    background-color: violet;
+    transform: rotate(270deg);
+  }
+  
+  /* Register Button */
+  .register-button1 {
+    display: inline-block;
+    background-color: gold;
+    color: #fff;
+    padding: 10px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    margin: auto;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background-color: greenyellow;
+  }
+  
+  /* Floating Animation */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  /* Pie Chart Rotation Animation */
+  @keyframes rotatePie {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+/* hero  section*/
+.header-wrapper{
+    max-width: 1152px;
+    margin: 0 auto;
+    background-color: #222;
+    height:100vh;
+}
+.header-wrapper .hero{
+    display: flex;
+   
+}
+.header-wrapper .hero  .hero-left,
+.header-wrapper .hero  .hero-right{
+    flex: 1;
+}
+.header-wrapper .hero  .hero-left{
+         align-self: center;
+         padding-left: 100px ;
+}
+.header-wrapper .hero  h1.main-heading{
+    color: lightgrey;
+     font-family: "Dancing Script", cursive;
+     font-size: 64px;
+}
+.header-wrapper .hero  p.main-subheading{
+
+    color: lightgrey;
+     font-family: "Dancing Script", cursive;
+     font-size: 16px;
+     margin-bottom: 24px;
+
+
+}
+a.button{
+    background-color:#ffe259 ;
+    text-decoration: none;
+    padding: 8px 24px;
+    display: inline-block;
+    font-size: 16px;
+
+}
+/* blog section */
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+    position: relative;
+}
+h2::after{
+    content:"";
+    position:absolute;
+    height: 3px;
+    width: 48px;
+    background-color:#ffe259;
+    bottom: -8px;
+    left: 0;
+}
+.posts-wrapper{
+    padding-top: 100px;
+
+}
+.blogpost-card .thumbnail-image{
+    position: relative;
+}
+.blogpost-card .thumbnail-image > img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+.blogpost-card .thumbnail-image .post-labels{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background-color: #ffe259;
+    padding: 8px 16px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px -3px rgba(0,0,0,0.2);
+}
+.blogpost-card .thumbnail-image .post-labels img{
+    margin-right: 10px;
+
+}
+.blogpost-card .thumbnail-image .post-labels a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.blogpost-card {
+    padding-bottom: 50px;
+    border-bottom:1px solid #bbafaf ;
+    padding-top: 100px;
+}
+.blogpost-card:nth-of-type(1) {
+    padding-top: 16px;
+}
+.blogpost-card h3{
+    font-family: "Dancing Script", cursive;
+    font-size: 36px;
+    margin: 42px 0 12px 0;
+
+}
+.blogpost-card .post-meta{
+    font-size: 14px;
+    background-color:black;
+    color: lightgray;
+    display: inline-block;
+    padding: 4px 16px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+
+}
+
+
+
+/* popular posts section */
+.popular-posts-container{
+    box-shadow: 0 4px -3px rgba(0,0,0,0.2);
+    padding: 32px;
+    margin-top: 100px;
+}
+
+.popular-posts-container .popular-posts{
+    display: flex;
+    gap: 32px;
+    
+}
+
+
+.popular-posts-thumbnail img{
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.popular-posts .popular-post{
+    margin: 0 8px;
+    align-items: center;
+
+}
+    
+.popular-posts h3.title{
+    font-family: "Dancing Script", cursive;
+    font-size: 26px;
+    margin-top: 16px;
+}  
+
+
+/* faq section */
+.faq-section {
+    margin: 40px auto;
+    width: 80%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-section h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .faq-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .faq-item:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-item h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .faq-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .faq-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .faq-button:hover {
+    background: #0056b3;
+  }
+  
+
+
+/* contact section */
+.contact-container{
+    margin-top: 100px;box-shadow: 0 4px -3px rgba(0,0,0,0.2);
+    padding: 32px;
+
+}
+.contact-container form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-container form input[type="text"],
+.contact-container form textarea{
+    padding: 8px 24px;
+    font-family: "Roboto",sans-serif;
+    margin-bottom: 10px;
+
+}
+.contact-container form input[type="submit"]{
+    background-color: #06f0ff;
+    width: 150px;
+    padding: 8px 24px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+}    
+
+
+/* Tags Section */
+.tags-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9; /* Light background for contrast */
+  }
+  
+  .tags-section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Space between tags */
+  }
+  
+  .tag {
+    background-color: #db34d3;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px; /* Pill-shaped tags */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .tag:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+    transform: translateY(-3px); /* Slight lift on hover */
+  }
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    padding: 36px;
+}
+
+footer a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+footer .footer-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+footer .footer-left{
+    align-self: center;
+}
+    
+footer ul{
+    list-style: none;
+    margin-top: 16px;
+}
+footer ul li{
+    margin: 12px 8px;
+
+}
+footer .social-icons{
+    margin-top: 20px;
+    
+    padding:10px;
+    max-width: 260px;
+    border-radius: 10px;
+
+}
+footer .social-icons img{
+    margin: 0 20px;
+    
+
+}
+footer .social-icons a{
+    text-decoration: none;
+    
+}
+footer .footer-right{
+    margin-top: 20px;
+}
+/* search container */
+
+
+
+.top-nav .wrapper{
+    position: relative;
+   
+   
+     
+}
+/* read more button */
+.post-body{
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+
+}
+.post-body::after{
+    content: "";
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(
+         0deg,
+          rgba(255,255,255,1) 0%,
+         rgba(255,255,255,1) 48%,
+         rgba(255,255,255,0.7) 77%,
+          rgba(236,252,255,0) 100%
+          );
+}
+.post-body .read-more-container{
+    position: absolute;
+    bottom: 16px;
+    z-index: 100;
+    text-align: center;
+    left: 0;
+    right: 0;
+
+}
+.post-body .read-more-container .read-more{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+
+
+/* hanging buttons */
+.floating-buttons {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+
+.floating-buttons .whatsapp-button,
+.floating-buttons .register-button {
+    margin-bottom: 10px; /* Add space between the buttons */
+}
+.whatsapp-btn{
+    height: 70px;
+    width: 70px;
+    
+}
+.register-btn {
+    background-color: red;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px 16px;
+    border-radius: 20px;
+    transition: transform 0.3s ease; 
+}
+
+.register-btn:hover {
+    background-color: greenyellow;
+    transform: translateY(-50%) scale(1.1);
+}
+
+
+/* Media Queries */
+@media(max-width: 600px){
+      /* top  nav */
+
+      
+        .wrapper{
+            width: 100%;
+            padding: 0 16px;
+        }
+       
+        /* hidden items */
+        .mobile{
+    display: none;
+}
+
+.desktop{
+    display: block;
+}
+    
+    .popup-container {
+        
+        top: 67px;
+        left: 135px;
+        
+    }
+    .popup-box {
+      width: 130%;
+      
+      padding: 12px;
+      gap: 12px;
+      
+    }
+  
+    
+  
+    .popup-box p {
+      display: none;
+    }
+    .pie-chart {
+        width: 44px;
+        height: 44px;
+        margin: auto 10px;
+    }
+    .register-button1 {
+      padding: 12px 14px;
+      font-size: 16px;
+    }
+        
+/* header */
+  
+.header-wrapper{
+    max-width: 1152px;
+    margin: 0 auto;
+    background-color: #222;
+    height:100vh;
+}
+
+.header-wrapper .hero  .hero-left{
+         align-self: center;
+         padding:200px  20px;
+
+}
+
+.header-wrapper .hero  .hero-right{
+    height: 0;
+    width: 0;
+}
+
+.header-wrapper .hero  h1.main-heading{
+    color: lightgrey;
+     font-family: "Dancing Script", cursive;
+     font-size: 64px;
+}
+.header-wrapper .hero  p.main-subheading{
+
+    color: lightgrey;
+     font-family: "Dancing Script", cursive;
+     font-size: 16px;
+     margin-bottom: 24px;
+
+
+}
+a.button{
+    background-color:#ffe259 ;
+    text-decoration: none;
+    padding: 8px 24px;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+
+    /* blog section */
+    .posts-wrapper .blogpost-card .thumbnail-image >img{
+        height: 220px;
+
+    }
+    .h3.post-title{
+        font-size: 32px;
+        margin: 24px;
+
+    }
+  /* popular posts */
+    .popular-posts-container{
+        box-shadow: unset;
+        padding:16px;
+    }
+    .popular-posts-container .popular-posts{
+        flex-direction: column;
+    }
+    .popular-posts .popular-post{
+        margin: 10px auto;
+        align-items: center;
+    }
+    
+    /* faq section */
+    .faq-section {
+    margin: 40px auto;
+    width: 93%;
+    }
+    .faq-section h1 {
+        font-size: 28px;
+      }
+    
+      .faq-item h2 {
+        font-size: 20px;
+      }
+    
+      .faq-item p {
+        font-size: 14px;
+      }
+    
+      .faq-button {
+        font-size: 14px;
+        padding: 8px 16px;
+      }
+    
+    
+    /* contact section */
+    .contact-container{
+        padding: 16px;
+        box-shadow: unset;
+    }
+/* footer */
+    .footer-container{
+       flex-direction: column;
+    }
+    .footer-container .footer-center{
+      text-align: center;
+       margin-top: 60px;
+       margin-bottom: 60px;
+    }
+    .footer-container .footer-right{
+        text-align: center;
+    }
+    .footer-container .footer-right .social-icons{
+        margin:20px auto;
+        margin-bottom: 60px;
+
+    }
+    /* mobile navigtion  */
+    .top-nav .mobile-menu-container{
+      
+        background-color: #222;
+        height: 100vh;
+        width: 100%;
+        z-index: 200;
+        top: -100%;
+       
+    }
+
+   
+   
+    /* hanging buttons */
+    .floating-buttons {
+        right: 10px; /* Adjust position for smaller screens */
+        bottom: -20px;
+
+    }
+
+    .register-btn {
+        font-size: 18px; /* Reduce font size for better fit */
+        padding: 4px 12px; /* Adjust padding */
+        border-radius: 15px;
+        bottom: -20px;
+    }
+    .whatsapp-btn{
+        height: 40px;
+        width: 40px;
+    } 
+}
+</style>
+    
      <!-- Structured Data (FAQ and Breadcrumb Schema) -->
     <script type="application/ld+json">
     {
@@ -73,14 +908,6 @@
     }
     </script>
 
-   
-    <title>StateHela Agencies | Register Now!- Start Earning in Minutes!</title>
-
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="select.css">
-    <link rel="icon" type="image/png" href="image/logo1.jpg">
-    <link rel="canonical" href="https://www.statehela-agencies.com/">
 
      <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16875567031">
@@ -557,16 +1384,16 @@
                         <h4 class="list-title">Follow us on</h4>
                             <div class="social-icons">
                             <a href="https://www.instagram.com/state_helaagencies?igsh=MjUzdG9ndGZzNmJp">
-                                <img src="image/instagram-logo.png" alt="">
+                                <img src="image/instagram-logo.png" alt="" loading="lazy">
                             </a>
 
                            
                             </a>
                             <a href="https://www.tiktok.com/@statehela_agencies.com?_t=ZM-8tiMjz3h325&_r=1">
-                                <img src="image/tiktok-logo1.png" style="background-color: aliceblue; border-radius: 4px; height: 26px; width: 26px;" alt="">
+                                <img src="image/tiktok-logo1.png" loading="lazy" style="background-color: aliceblue; border-radius: 4px; height: 26px; width: 26px;" alt="">
                             </a>
                             <a href="https://www.facebook.com/share/18Yrz2zkwf/">
-                                <img src="image/facebook-logo.png" alt="">
+                                <img src="image/facebook-logo.png" alt="" loading="lazy">
                             </a>
                          </div>
                          <p>This Website Is Developed By Elzado01 &copy;2025</p>
