@@ -35,9 +35,10 @@ nav ul li a:hover {
     color: #f39c12;
 }
 
+
 /* Pop-up Container */
 .popup-container {
-    
+    position: fixed;
     top: 75px;
     left: 50%;
     transform: translateX(-50%);
@@ -405,10 +406,9 @@ footer .footer-right {
     nav ul li {
         margin: 8px 14px;
     }
-   
     .popup-container {
         
-        top: 100px;
+        top: 67px;
         left: 135px;
         
     }
@@ -426,14 +426,15 @@ footer .footer-right {
       display: none;
     }
     .pie-chart {
-        width: 46px;
-        height: 46px;
+        width: 44px;
+        height: 44px;
         margin: auto 10px;
     }
     .register-button1 {
       padding: 12px 14px;
       font-size: 16px;
     }
+    
     .hero h1 {
         font-size: 2.5rem;
     }
